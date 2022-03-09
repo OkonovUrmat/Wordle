@@ -13,6 +13,8 @@
 		37FA037727D8512D002044C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FA037527D8512D002044C5 /* Main.storyboard */; };
 		37FA037927D8512F002044C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FA037827D8512F002044C5 /* Assets.xcassets */; };
 		37FA037C27D8512F002044C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FA037A27D8512F002044C5 /* LaunchScreen.storyboard */; };
+		37FA038627D852D5002044C5 /* KeyboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA038527D852D5002044C5 /* KeyboardVC.swift */; };
+		37FA038827D852FC002044C5 /* BoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA038727D852FC002044C5 /* BoardVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		37FA037827D8512F002044C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37FA037B27D8512F002044C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37FA037D27D8512F002044C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FA038527D852D5002044C5 /* KeyboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardVC.swift; sourceTree = "<group>"; };
+		37FA038727D852FC002044C5 /* BoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				37FA037327D8512D002044C5 /* ViewController.swift */,
+				37FA038527D852D5002044C5 /* KeyboardVC.swift */,
+				37FA038727D852FC002044C5 /* BoardVC.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				37FA037427D8512D002044C5 /* ViewController.swift in Sources */,
+				37FA038627D852D5002044C5 /* KeyboardVC.swift in Sources */,
+				37FA038827D852FC002044C5 /* BoardVC.swift in Sources */,
 				37FA037027D8512D002044C5 /* AppDelegate.swift in Sources */,
 				37FA037227D8512D002044C5 /* SceneDelegate.swift in Sources */,
 			);
