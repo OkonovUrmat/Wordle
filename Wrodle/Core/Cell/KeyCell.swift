@@ -22,7 +22,7 @@ class KeyCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        backgroundColor = .systemGray5
+        backgroundColor = .systemGray
         contentView.addSubview(label)
         label.snp.makeConstraints { make in
             make.left.right.top.bottom.equalToSuperview()
